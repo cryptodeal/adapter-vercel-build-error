@@ -1,0 +1,85 @@
+[32m@reproduction/web:build[0m: cache hit, replaying output [2m55a59d70218d915b[0m
+[32m@reproduction/web:build: [0m
+[32m@reproduction/web:build: [0m> @reproduction/web@0.0.1 build /Users/cryptodeal/adapter-vercel-build-error/web
+[32m@reproduction/web:build: [0m> vite build
+[32m@reproduction/web:build: [0m
+[32m@reproduction/web:build: [0mvite v3.0.0 building for production...
+[32m@reproduction/web:build: [0mtransforming...
+[32m@reproduction/web:build: [0m✓ 34 modules transformed.
+[32m@reproduction/web:build: [0mrendering chunks...
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/svelte-logo-87df40b8.svg                           1.85 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2      7.33 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2       8.89 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2      11.10 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/fira-mono-latin-400-normal-e43b3538.woff2          15.90 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2          10.27 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2   15.40 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/fira-mono-all-400-normal-1e3b098c.woff             75.55 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/manifest.json                                                       5.86 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/pages/__layout.svelte-71f816a4.js                         4.77 KiB / gzip: 1.86 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/error.svelte-deed209b.js                                  1.56 KiB / gzip: 0.74 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/pages/about.svelte-17b77763.js                            2.51 KiB / gzip: 1.15 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/chunks/index-3541bec6.js                                  0.43 KiB / gzip: 0.30 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/chunks/singletons-cdeec3fd.js                             0.05 KiB / gzip: 0.07 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/pages/index.svelte-e9bdc351.js                            5.47 KiB / gzip: 2.43 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/about-9682aba9.css                                 0.11 KiB / gzip: 0.10 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/pages/todos/index.svelte-931c528e.js                      6.86 KiB / gzip: 2.88 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/chunks/index-bf39200f.js                                  11.80 KiB / gzip: 5.02 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/__layout-f74aac7c.css                              5.08 KiB / gzip: 1.56 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/index-5c3529b5.css                                 3.70 KiB / gzip: 1.03 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/assets/index-8bad58d3.css                                 1.45 KiB / gzip: 0.52 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/client/_app/immutable/start-ae6f8c61.js                                         23.66 KiB / gzip: 8.83 KiB
+[32m@reproduction/web:build: [0mvite v3.0.0 building SSR bundle for production...
+[32m@reproduction/web:build: [0mtransforming...
+[32m@reproduction/web:build: [0m✓ 35 modules transformed.
+[32m@reproduction/web:build: [0m"Player" is imported from external module "@reproduction/mongo" but never used in "src/routes/todos/index.ts".
+[32m@reproduction/web:build: [0mrendering chunks...
+[32m@reproduction/web:build: [0m.svelte-kit/output/server/manifest.json                         2.37 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/server/index.js                              76.18 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/server/entries/endpoints/todos/index.ts.js   1.38 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/server/entries/pages/__layout.svelte.js      4.63 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/server/entries/fallbacks/error.svelte.js     0.74 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/server/entries/pages/about.svelte.js         1.40 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/server/entries/pages/index.svelte.js         8.23 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/server/entries/pages/todos/index.svelte.js   5.94 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/server/immutable/chunks/index-615dd153.js    4.15 KiB
+[32m@reproduction/web:build: [0m.svelte-kit/output/server/immutable/chunks/hooks-d9fcff81.js    0.46 KiB
+[32m@reproduction/web:build: [0m
+[32m@reproduction/web:build: [0mRun npm run preview to preview your production build locally.
+[32m@reproduction/web:build: [0m
+[32m@reproduction/web:build: [0m> Using @sveltejs/adapter-vercel
+[32m@reproduction/web:build: [0m  The following modules failed to locate dependencies that may (or may not) be required for your app to work:
+[32m@reproduction/web:build: [0m  ../node_modules/.pnpm/mongodb@4.5.0/node_modules/mongodb/lib/bson.js
+[32m@reproduction/web:build: [0m    - [1m[36mbson-ext[39m[22m
+[32m@reproduction/web:build: [0m  ../node_modules/.pnpm/mongodb@4.5.0/node_modules/mongodb/lib/deps.js
+[32m@reproduction/web:build: [0m    - [1m[36mkerberos[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36msnappy[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36maws4[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36msnappy/package.json[39m[22m
+[32m@reproduction/web:build: [0m  ../node_modules/.pnpm/mongodb@4.5.0/node_modules/mongodb/lib/encrypter.js
+[32m@reproduction/web:build: [0m    - [1m[36mmongodb-client-encryption[39m[22m
+[32m@reproduction/web:build: [0m  ../node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/index.js
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.android-arm64.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.win32-x64-msvc.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.win32-ia32-msvc.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.win32-arm64-msvc.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.darwin-x64.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.darwin-arm64.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.freebsd-x64.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.linux-x64-musl.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.linux-x64-gnu.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.linux-arm64-musl.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.linux-arm64-gnu.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m/Users/cryptodeal/adapter-vercel-build-error/node_modules/.pnpm/@napi-rs+pinyin@1.7.0/node_modules/@napi-rs/pinyin/pinyin.linux-arm-gnueabihf.node[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m@napi-rs/pinyin-win32-ia32-msvc[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m@napi-rs/pinyin-linux-x64-musl[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m@napi-rs/pinyin-android-arm64[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m@napi-rs/pinyin-win32-arm64-msvc[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m@napi-rs/pinyin-darwin-x64[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m@napi-rs/pinyin-linux-arm64-musl[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m@napi-rs/pinyin-freebsd-x64[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m@napi-rs/pinyin-linux-arm64-gnu[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m@napi-rs/pinyin-linux-arm-gnueabihf[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m@napi-rs/pinyin-linux-x64-gnu[39m[22m
+[32m@reproduction/web:build: [0m    - [1m[36m@napi-rs/pinyin-win32-x64-msvc[39m[22m
+[32m@reproduction/web:build: [0m  ✔ done

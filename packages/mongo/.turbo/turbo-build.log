@@ -1,0 +1,33 @@
+[35m@reproduction/mongo:build[0m: cache hit, replaying output [2m54831fa0642bacc9[0m
+[35m@reproduction/mongo:build: [0m
+[35m@reproduction/mongo:build: [0m> @reproduction/mongo@0.1.0 build /Users/cryptodeal/adapter-vercel-build-error/packages/mongo
+[35m@reproduction/mongo:build: [0m> mtgen ./src/db/models && tsup
+[35m@reproduction/mongo:build: [0m
+[35m@reproduction/mongo:build: [0mGenerating mongoose typescript definitions... done
+[35m@reproduction/mongo:build: [0mWriting interfaces to src/db/interfaces/mongoose.gen.ts
+[35m@reproduction/mongo:build: [0mWriting complete 🐒
+[35m@reproduction/mongo:build: [0mCLI Building entry: src/index.ts, src/db/interfaces/mongoose.gen.ts, src/db/models/Player.ts
+[35m@reproduction/mongo:build: [0mCLI Using tsconfig: tsconfig.json
+[35m@reproduction/mongo:build: [0mCLI tsup v6.1.3
+[35m@reproduction/mongo:build: [0mCLI Using tsup config: /Users/cryptodeal/adapter-vercel-build-error/packages/mongo/tsup.config.ts
+[35m@reproduction/mongo:build: [0mCLI Target: node16
+[35m@reproduction/mongo:build: [0mCLI Cleaning output folder
+[35m@reproduction/mongo:build: [0mESM Build start
+[35m@reproduction/mongo:build: [0mCJS Build start
+[35m@reproduction/mongo:build: [0mESM ⚡️ Build success in 18ms
+[35m@reproduction/mongo:build: [0mCJS ⚡️ Build success in 15ms
+[35m@reproduction/mongo:build: [0mESM dist/index.mjs                      139.00 B
+[35m@reproduction/mongo:build: [0mESM dist/chunk-HVWGDIWW.mjs             170.00 B
+[35m@reproduction/mongo:build: [0mESM dist/chunk-ZPPQDXJU.mjs             1.31 KB
+[35m@reproduction/mongo:build: [0mESM dist/db/models/Player.mjs           74.00 B
+[35m@reproduction/mongo:build: [0mESM dist/db/interfaces/mongoose.gen.mjs 84.00 B
+[35m@reproduction/mongo:build: [0mCJS dist/chunk-USSDQICR.js             416.00 B
+[35m@reproduction/mongo:build: [0mCJS dist/chunk-LWKJD7VA.js             1.64 KB
+[35m@reproduction/mongo:build: [0mCJS dist/index.js                      284.00 B
+[35m@reproduction/mongo:build: [0mCJS dist/db/interfaces/mongoose.gen.js 188.00 B
+[35m@reproduction/mongo:build: [0mCJS dist/db/models/Player.js           178.00 B
+[35m@reproduction/mongo:build: [0mDTS Build start
+[35m@reproduction/mongo:build: [0mDTS ⚡️ Build success in 3701ms
+[35m@reproduction/mongo:build: [0mDTS dist/index.d.ts                      319.00 B
+[35m@reproduction/mongo:build: [0mDTS dist/db/models/Player.d.ts           109.00 B
+[35m@reproduction/mongo:build: [0mDTS dist/db/interfaces/mongoose.gen.d.ts 7.26 KB

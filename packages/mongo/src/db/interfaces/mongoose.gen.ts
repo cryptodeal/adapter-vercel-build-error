@@ -6,11 +6,6 @@
 // NOTE: ANY CHANGES MADE WILL BE OVERWRITTEN ON SUBSEQUENT EXECUTIONS OF MONGOOSE-TSGEN.
 
 import mongoose from "mongoose";
-import type {
-  Player2StatsObject,
-  MlFantasyPlayerData,
-  MlFantasyPlayerLean,
-} from "../models/Player2";
 
 /**
  * Lean version of Player2SeasonDocument

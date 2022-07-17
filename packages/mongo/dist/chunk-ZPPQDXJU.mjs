@@ -1,30 +1,30 @@
+// src/db/models/Player.ts
 import mongoose from "mongoose";
 import { wrap, plugin, SluggerOptions } from "mongoose-slugger-plugin";
-
-const Player2Schema /*: Player2Schema*/ = new mongoose.Schema({
+var Player2Schema = new mongoose.Schema({
   slug: { type: String, required: true },
   name: {
     full: { type: String, required: true },
     display: { type: String },
     pronunciation: { type: String },
     nicknames: [{ type: String }],
-    parsed: [{ type: String }],
+    parsed: [{ type: String }]
   },
   birthDate: { type: Date },
   birthPlace: {
     city: { type: String },
     state: { type: String },
-    country: { type: String },
+    country: { type: String }
   },
   highSchool: { type: String },
   college: { type: String },
   socials: {
     twitter: { type: String },
-    instagram: { type: String },
+    instagram: { type: String }
   },
   height: {
     feet: { type: Number },
-    inches: { type: Number },
+    inches: { type: Number }
   },
   weight: { type: Number },
   lastAffiliation: { type: String },
@@ -35,21 +35,18 @@ const Player2Schema /*: Player2Schema*/ = new mongoose.Schema({
   draftNumber: { type: String },
   seasons: [
     {
-      year: { type: Number, required: true, index: true },
-    },
-  ],
+      year: { type: Number, required: true, index: true }
+    }
+  ]
 });
+Player2Schema.index({ "slug": 1 }, { name: "slug", unique: true });
+Player2Schema.plugin(plugin, new SluggerOptions({
+  slugPath: "slug",
+  generateFrom: ["name.full"],
+  index: "slug"
+}));
+var Player = wrap(mongoose.model("Player2", Player2Schema));
 
-Player2Schema.index({ slug: 1 }, { name: "slug", unique: true });
-
-Player2Schema.plugin(
-  plugin,
-  new SluggerOptions({
-    slugPath: "slug",
-    generateFrom: ["name.full"],
-    index: "slug",
-  })
-);
-export const Player /*: PlayerModel*/ = wrap(
-  mongoose.model(/*<Player2Document, Player2Model>*/ "Player2", Player2Schema)
-);
+export {
+  Player
+};

@@ -1,10 +1,12 @@
 import { api } from './_api';
+import { Player } from '@reproduction/mongo';
 import type { RequestHandler } from './__types';
 
 export const GET: RequestHandler = async ({ locals }) => {
 	// locals.userid comes from src/hooks.js
 	const response = await api('GET', `todos/${locals.userid}`);
-
+	const player = new Player();
+	console.log(player);
 	if (response.status === 404) {
 		// user hasn't created a todo list.
 		// start with an empty array

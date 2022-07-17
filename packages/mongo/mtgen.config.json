@@ -1,4 +1,3 @@
 {
-  "imports": ["import type { Player2StatsObject, MlFantasyPlayerData, MlFantasyPlayerLean } from \"../models/Player2\""],
   "output": "./src/db/interfaces"
 }
