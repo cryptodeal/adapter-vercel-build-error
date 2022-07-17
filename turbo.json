@@ -1,0 +1,32 @@
+{
+	"$schema": "https://turborepo.org/schema.json",
+	"pipeline": {
+    "build": {
+			"dependsOn": ["^build"],
+			"inputs": ["src/**"],
+			"outputs": ["dist/**", ".svelte-kit/**", ".vercel_build_output/**"]
+		},
+    "@reproduction/mongoose#build": {
+			"dependsOn": ["^build"],
+			"inputs": [ "src/**"],
+			"outputs": ["dist/**"]
+		},
+		"@reproduction/web#build": {
+			"dependsOn": ["^build", "$VERCEL"],
+			"inputs": ["src/**"],
+			"outputs": [".vercel_build_output/**"]
+		},
+		"check": {
+			"outputs": []
+		},
+		"format": {},
+		"lint": {
+			"dependsOn": ["format"],
+			"outputs": []
+		},
+		"dev": {
+			"cache": false
+		}
+	},
+  "globalDependencies": [".eslintrc.json", ".prettierrc", "tsconfig.json", "tsup.config.ts"]
+}
