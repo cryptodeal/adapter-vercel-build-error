@@ -1,7 +1,7 @@
-[32m@reproduction/web:lint[0m: cache hit, replaying output [2m818aeb643233211b[0m
-[32m@reproduction/web:lint: [0m
-[32m@reproduction/web:lint: [0m> @reproduction/web@0.0.1 lint /Users/cryptodeal/adapter-vercel-build-error/web
-[32m@reproduction/web:lint: [0m> prettier --check --plugin-search-dir=. . && eslint .
-[32m@reproduction/web:lint: [0m
-[32m@reproduction/web:lint: [0mChecking formatting...
-[32m@reproduction/web:lint: [0mAll matched files use Prettier code style!
+[35m@reproduction/web:lint[0m: cache hit, replaying output [2m07baeafc9c9c8865[0m
+[35m@reproduction/web:lint: [0m
+[35m@reproduction/web:lint: [0m> @reproduction/web@0.0.1 lint /Users/cryptodeal/adapter-vercel-build-error/web
+[35m@reproduction/web:lint: [0m> prettier --check --plugin-search-dir=. . && eslint .
+[35m@reproduction/web:lint: [0m
+[35m@reproduction/web:lint: [0mChecking formatting...
+[35m@reproduction/web:lint: [0mAll matched files use Prettier code style!

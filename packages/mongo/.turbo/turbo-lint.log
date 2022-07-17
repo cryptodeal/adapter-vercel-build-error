@@ -1,5 +1,5 @@
-[35m@reproduction/mongo:lint[0m: cache hit, replaying output [2md8a03e15f5390314[0m
-[35m@reproduction/mongo:lint: [0m
-[35m@reproduction/mongo:lint: [0m> @reproduction/mongo@0.1.0 lint /Users/cryptodeal/adapter-vercel-build-error/packages/mongo
-[35m@reproduction/mongo:lint: [0m> eslint '*/**/*.{js,ts,tsx}' --quiet --fix
-[35m@reproduction/mongo:lint: [0m
+[32m@reproduction/mongo:lint[0m: cache hit, replaying output [2m183e6acee37f7cc1[0m
+[32m@reproduction/mongo:lint: [0m
+[32m@reproduction/mongo:lint: [0m> @reproduction/mongo@0.1.0 lint /Users/cryptodeal/adapter-vercel-build-error/packages/mongo
+[32m@reproduction/mongo:lint: [0m> eslint '*/**/*.{js,ts,tsx}' --quiet --fix
+[32m@reproduction/mongo:lint: [0m
